@@ -1,0 +1,25 @@
+.size-style{
+    font-size: 20px;
+}
+.size-style:hover{
+    background-color: rgb(164, 145, 231);
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+.button-style{
+    background-color: rgb(107, 36, 238);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.nav-button{
+    border:2px solid rgb(107, 36, 238);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.nav-button:hover{
+    background-color:rgb(122, 79, 202);
+    color:white;
+}
