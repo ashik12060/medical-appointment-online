@@ -14,7 +14,7 @@ const CardItem = () => {
         <>
             <Row xs={1} md={2} lg={3} className="g-4 mx-4">
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth1} />
                         <Card.Body className="text-center">
                             <Card.Title>
@@ -40,7 +40,7 @@ const CardItem = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth2} />
                         <Card.Body className="text-center">
                             <Card.Title><h1>Orthodontics</h1></Card.Title>
@@ -62,7 +62,7 @@ const CardItem = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth3} />
                         <Card.Body className="text-center">
                             <Card.Title><h1>Oral Hygiene
@@ -84,7 +84,7 @@ const CardItem = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth4} />
                         <Card.Body className="text-center">
                             <Card.Title><h1>Dental Treatment</h1></Card.Title>
@@ -105,7 +105,7 @@ const CardItem = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth5} />
                         <Card.Body className="text-center">
                             <Card.Title><h1>Dental Surgery</h1></Card.Title>
@@ -126,7 +126,7 @@ const CardItem = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className="card-shadow">
                         <Card.Img variant="top" src={tooth6} />
                         <Card.Body className="text-center">
                             <Card.Title><h1>Dental Implants</h1></Card.Title>

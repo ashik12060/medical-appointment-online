@@ -6,7 +6,6 @@
 }
 .left{
     font-size: 18px;
-
     background-color: rgb(94, 14, 241);
     color:white;
     border:none;
@@ -14,9 +13,8 @@
     border-radius:10px
 }
 .left:hover{
-    background-color:white;
-    color:black;
-    border:2px solid gray;
+    background-color:rgb(231, 225, 243);
+    color:rgb(94, 14, 241);
 }
 .right{
     border:none;
@@ -29,4 +27,8 @@
 .right:hover{
     background-color: rgb(94,14,241);
     color: white;
+}
+.card-shadow{
+    box-shadow: 2px 2px  rgba(235, 222, 222, 0.877);
+    border: none;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../../media/images/full-equiped-medical-cabinet.jpg';
 import CardItem from '../CardItem/CardItem';
+import AboutUs from './AboutUs/AboutUs';
 import './Home.css';
 const Home = () => {
     return (
@@ -32,6 +33,7 @@ const Home = () => {
                 <div><button className="ms-5 book-button">Book an Appointment</button></div>
             </div>
             <CardItem></CardItem>
+            <AboutUs></AboutUs>
         </>
         
     );
