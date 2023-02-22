@@ -1,0 +1,32 @@
+.button-alignment{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    gap: 130px;
+}
+.left{
+    font-size: 18px;
+
+    background-color: rgb(94, 14, 241);
+    color:white;
+    border:none;
+    padding: 10px 12px;
+    border-radius:10px
+}
+.left:hover{
+    background-color:white;
+    color:black;
+    border:2px solid gray;
+}
+.right{
+    border:none;
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius:10px;
+    border:2px solid rgb(94,14,241);
+
+}
+.right:hover{
+    background-color: rgb(94,14,241);
+    color: white;
+}
