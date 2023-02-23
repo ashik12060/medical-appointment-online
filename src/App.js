@@ -3,6 +3,7 @@ import './App.css';
 import About from './pages/About/About';
 import Cart from './pages/Cart/Cart';
 import Contact from './pages/Contact/Contact';
+import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home/Home';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cart" element={<Cart></Cart>}></Route>
           <Route path="/contact" element={<Contact></Contact>}></Route>
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
 
 

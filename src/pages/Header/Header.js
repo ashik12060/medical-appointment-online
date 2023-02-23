@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <Navbar className="border-bottom" bg="white" variant="white" sticky="top" collapseOnSelect expand="lg">
                 <Container className="gap-5 ">
-                    <Navbar.Brand as={Link} to="/home#home"><h1 style={{fontWeight:"bold"}}>Dentist</h1></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/home#home"><h1  className="header-1" style={{fontWeight:"bold"}}>Dentist</h1></Navbar.Brand>
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-start text-dark gap-5 ">
