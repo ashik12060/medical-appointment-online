@@ -4,8 +4,8 @@ import img1 from '../../../../media/images/dentist-with-smiling-female-patient.j
 import doctorImg from '../../../../media/images/handsome-male-dentist-room-with-medical-equipment-background.jpg';
 const AboutUs = () => {
     return (
-        <div className="mt-5 container alignment-container gap-5">
-            <div>
+        <div className="mt-5  alignment-container gap-5">
+            <div className="container">
                 <img className="img-style" src={img1} alt="" />
             </div>
             <div className='text1-container'>
@@ -20,8 +20,8 @@ const AboutUs = () => {
                         <img className="dr-img" src={doctorImg} alt="" />
                     </div>
                     <div className="dr-container">
-                        <h2>Dr. John Doe</h2>
-                        <p>Dental Specialist</p>
+                        <h2 className="header-1">Dr. John Doe</h2>
+                        <p className="para-container">Dental Specialist</p>
                         <button className="book-button">About our clinic</button>
                     </div>
                 </div>

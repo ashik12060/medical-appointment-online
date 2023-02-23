@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../../media/images/full-equiped-medical-cabinet.jpg';
 import CardItem from '../CardItem/CardItem';
+import CarouselHandle from '../CarouselHandle/CarouselHandle';
 import AboutUs from './AboutUs/AboutUs';
 import './Home.css';
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
             </div>
             <CardItem></CardItem>
             <AboutUs></AboutUs>
+            <CarouselHandle></CarouselHandle>
         </>
         
     );
